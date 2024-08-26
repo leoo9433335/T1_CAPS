@@ -34,22 +34,25 @@ def getCountryInfo(country):
     timestamp = datetime.datetime.fromtimestamp(time.time()).strftime("%d/%m/%Y %H:%M:%S")
     
     dataRow = [name, currency, continent, neighboursName, timestamp]
-    countryData.writerow(dataRow)
-    return
+    return dataRow
 
 def getCountries(page: BeautifulSoup):
     table = page.find('table')
     countries = table.find_all('a')
+    country_data = []
     for country in countries:
         cPage = getPage(country.attrs['href'])
-        getCountryInfo(cPage)
+        country_data.append(getCountryInfo(cPage))
+
     nextPage = page.find('div', id='pagination',).find('a', string='Next >')
     if nextPage and 'href' in nextPage.attrs:
-        print(nextPage.attrs['href'])
         getCountries(getPage(nextPage.attrs['href']))
-    return
 
-with open('data.csv', mode='w') as countryData:
-    countryData = csv.writer(countryData, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    return country_data
+
+with open('data.csv', mode='w') as file:
+    countryData = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     mp = getPage('/places')
-    getCountries(mp)
+    all_country_data = getCountries(mp)
+    for dataRow in all_country_data:
+        countryData.writerow(dataRow)
