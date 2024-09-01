@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import time
 import datetime
-import csv
+import pandas as pd
 
 def getPage(url):
     link = ('http://127.0.0.1:8000{}'.format(url))
@@ -13,7 +13,7 @@ def getPage(url):
     bs = BeautifulSoup(html.read(), 'html.parser')
     return bs
 
-def getCountryInfo(country):
+def getCountryInfo(country, country_data):
     #CountryName
     name = country.find('tr', id='places_country__row').find('td', class_='w2p_fw').string
     print("Getting data from:", name)
@@ -30,29 +30,29 @@ def getCountryInfo(country):
         if not tr:
             break
         neighboursName.append((tr.find('td', class_='w2p_fw').string))
+        getCountryInfo(nPage, country_data)
     #Timestamp
     timestamp = datetime.datetime.fromtimestamp(time.time()).strftime("%d/%m/%Y %H:%M:%S")
     
-    dataRow = [name, currency, continent, neighboursName, timestamp]
-    return dataRow
+    df = pd.DataFrame({'name': name,
+                       'currency': currency,
+                       'continent': continent,
+                       'neighbours': neighboursName})
+    country_data.append(df)
+    return
 
-def getCountries(page: BeautifulSoup, country_data):
+def getCountries(page: BeautifulSoup):
     table = page.find('table')
     countries = table.find_all('a')
+    all_countries_data = []
     for country in countries:
         cPage = getPage(country.attrs['href'])
-        country_data.append(getCountryInfo(cPage))
+        getCountryInfo(cPage, all_countries_data)
 
-    nextPage = page.find('div', id='pagination',).find('a', string='Next >')
-    if nextPage and 'href' in nextPage.attrs:
-        getCountries(getPage(nextPage.attrs['href']), country_data)
-
-    return country_data
+    all_countries_df = pd.concat(all_countries_data, ignore_index=True)
+    all_countries_df.to_csv('data.csv', index=False)
 
 with open('data.csv', mode='w') as file:
     country_data = []
-    countryData = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     mp = getPage('/places')
-    all_country_data = getCountries(mp, country_data)
-    for dataRow in all_country_data:
-        countryData.writerow(dataRow)
+    getCountries(mp)
