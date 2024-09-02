@@ -1,0 +1,253 @@
+Country,Currency,Continent,Neighbours,Updated at
+Afghanistan,AFN,AS,"['Turkmenistan', 'China', 'Iran', 'Tajikistan', 'Pakistan', 'Uzbekistan']",01/09/2024 17:27:10
+Aland Islands,EUR,EU,[],01/09/2024 17:27:11
+Albania,ALL,EU,"['Macedonia', 'Greece', 'Serbia and Montenegro', 'Montenegro', 'Serbia', 'Kosovo']",01/09/2024 17:24:12
+Algeria,DZD,AF,"['Niger', 'Western Sahara', 'Libya', 'Mauritania', 'Tunisia', 'Morocco', 'Mali']",01/09/2024 17:25:16
+American Samoa,USD,OC,[],01/09/2024 17:27:12
+Andorra,EUR,EU,"['Spain', 'France']",01/09/2024 17:25:00
+Angola,AOA,AF,"['Democratic Republic of the Congo', 'Namibia', 'Zambia', 'Republic of the Congo']",01/09/2024 17:26:02
+Anguilla,XCD,NA,[],01/09/2024 17:27:13
+Antarctica,,AN,[],01/09/2024 17:27:14
+Antigua and Barbuda,XCD,NA,[],01/09/2024 17:27:15
+Argentina,ARS,SA,"['Chile', 'Bolivia', 'Uruguay', 'Paraguay', 'Brazil']",01/09/2024 17:28:03
+Armenia,AMD,AS,"['Georgia', 'Iran', 'Azerbaijan', 'Turkey']",01/09/2024 17:23:43
+Aruba,AWG,NA,[],01/09/2024 17:28:04
+Australia,AUD,OC,[],01/09/2024 17:28:04
+Austria,EUR,EU,"['Switzerland', 'Germany', 'Hungary', 'Slovakia', 'Czech Republic', 'Italy', 'Slovenia', 'Liechtenstein']",01/09/2024 17:24:23
+Azerbaijan,AZN,AS,"['Georgia', 'Iran', 'Armenia', 'Turkey', 'Russia']",01/09/2024 17:23:42
+Bahamas,BSD,NA,[],01/09/2024 17:28:05
+Bahrain,BHD,AS,[],01/09/2024 17:28:06
+Bangladesh,BDT,AS,"['Myanmar', 'India']",01/09/2024 17:23:02
+Barbados,BBD,NA,[],01/09/2024 17:28:07
+Belarus,BYR,EU,"['Poland', 'Lithuania', 'Ukraine', 'Russia', 'Latvia']",01/09/2024 17:24:37
+Belgium,EUR,EU,"['Germany', 'Netherlands', 'Luxembourg', 'France']",01/09/2024 17:24:47
+Belize,BZD,NA,"['Guatemala', 'Mexico']",01/09/2024 17:27:32
+Benin,XOF,AF,"['Niger', 'Togo', 'Burkina Faso', 'Nigeria']",01/09/2024 17:26:47
+Bermuda,BMD,NA,[],01/09/2024 17:28:09
+Bhutan,BTN,AS,"['China', 'India']",01/09/2024 17:22:58
+Bolivia,BOB,SA,"['Peru', 'Chile', 'Paraguay', 'Brazil', 'Argentina']",01/09/2024 17:27:50
+"Bonaire, Saint Eustatius and Saba",USD,NA,[],01/09/2024 17:28:10
+Bosnia and Herzegovina,BAM,EU,"['Serbia and Montenegro', 'Croatia', 'Montenegro', 'Serbia']",01/09/2024 17:24:04
+Botswana,BWP,AF,"['Zimbabwe', 'South Africa', 'Namibia']",01/09/2024 17:26:02
+Bouvet Island,NOK,AN,[],01/09/2024 17:28:11
+Brazil,BRL,SA,"['Suriname', 'Peru', 'Bolivia', 'Uruguay', 'Guyana', 'Paraguay', 'French Guiana', 'Venezuela', 'Colombia', 'Argentina']",01/09/2024 17:27:56
+British Indian Ocean Territory,USD,AS,[],01/09/2024 17:28:12
+British Virgin Islands,USD,NA,[],01/09/2024 17:28:12
+Brunei,BND,AS,['Malaysia'],01/09/2024 17:22:46
+Bulgaria,BGN,EU,"['Macedonia', 'Greece', 'Romania', 'Serbia and Montenegro', 'Turkey', 'Serbia']",01/09/2024 17:24:06
+Burkina Faso,XOF,AF,"['Niger', 'Benin', 'Ghana', 'Ivory Coast', 'Togo', 'Mali']",01/09/2024 17:25:16
+Burundi,BIF,AF,"['Tanzania', 'Democratic Republic of the Congo', 'Rwanda']",01/09/2024 17:26:27
+Cambodia,KHR,AS,"['Laos', 'Thailand', 'Vietnam']",01/09/2024 17:22:43
+Cameroon,XAF,AF,"['Chad', 'Central African Republic', 'Gabon', 'Equatorial Guinea', 'Republic of the Congo', 'Nigeria']",01/09/2024 17:26:47
+Canada,CAD,NA,['United States'],01/09/2024 17:27:28
+Cape Verde,CVE,AF,[],01/09/2024 17:28:14
+Cayman Islands,KYD,NA,[],01/09/2024 17:28:15
+Central African Republic,XAF,AF,"['Chad', 'Sudan', 'Democratic Republic of the Congo', 'South Sudan', 'Cameroon', 'Republic of the Congo']",01/09/2024 17:26:45
+Chad,XAF,AF,"['Niger', 'Libya', 'Central African Republic', 'Sudan', 'Cameroon', 'Nigeria']",01/09/2024 17:26:53
+Chile,CLP,SA,"['Peru', 'Bolivia', 'Argentina']",01/09/2024 17:28:00
+China,CNY,AS,"['Laos', 'Bhutan', 'Tajikistan', 'Kazakhstan', 'Mongolia', 'Afghanistan', 'Nepal', 'Myanmar', 'Kyrgyzstan', 'Pakistan', 'North Korea', 'Russia', 'Vietnam', 'India']",01/09/2024 17:23:27
+Christmas Island,AUD,AS,[],01/09/2024 17:28:16
+Cocos Islands,AUD,AS,[],01/09/2024 17:28:17
+Colombia,COP,SA,"['Ecuador', 'Peru', 'Panama', 'Brazil', 'Venezuela']",01/09/2024 17:27:57
+Comoros,KMF,AF,[],01/09/2024 17:28:18
+Cook Islands,NZD,OC,[],01/09/2024 17:28:19
+Costa Rica,CRC,NA,"['Panama', 'Nicaragua']",01/09/2024 17:27:36
+Croatia,HRK,EU,"['Hungary', 'Slovenia', 'Serbia and Montenegro', 'Bosnia and Herzegovina', 'Montenegro', 'Serbia']",01/09/2024 17:24:17
+Cuba,CUP,NA,['United States'],01/09/2024 17:27:30
+Curacao,ANG,NA,[],01/09/2024 17:28:20
+Cyprus,EUR,EU,[],01/09/2024 17:28:21
+Czech Republic,CZK,EU,"['Poland', 'Germany', 'Slovakia', 'Austria']",01/09/2024 17:24:23
+Democratic Republic of the Congo,CDF,AF,"['Tanzania', 'Central African Republic', 'South Sudan', 'Rwanda', 'Zambia', 'Burundi', 'Uganda', 'Republic of the Congo', 'Angola']",01/09/2024 17:26:36
+Denmark,DKK,EU,['Germany'],01/09/2024 17:24:49
+Djibouti,DJF,AF,"['Eritrea', 'Ethiopia', 'Somalia']",01/09/2024 17:26:16
+Dominica,XCD,NA,[],01/09/2024 17:28:23
+Dominican Republic,DOP,NA,['Haiti'],01/09/2024 17:28:24
+East Timor,USD,OC,['Indonesia'],01/09/2024 17:22:50
+Ecuador,USD,SA,"['Peru', 'Colombia']",01/09/2024 17:27:57
+Egypt,EGP,AF,"['Libya', 'Sudan', 'Israel']",01/09/2024 17:26:57
+El Salvador,USD,NA,"['Guatemala', 'Honduras']",01/09/2024 17:27:35
+Equatorial Guinea,XAF,AF,"['Gabon', 'Cameroon']",01/09/2024 17:25:59
+Eritrea,ERN,AF,"['Ethiopia', 'Sudan', 'Djibouti']",01/09/2024 17:26:16
+Estonia,EUR,EU,"['Russia', 'Latvia']",01/09/2024 17:23:32
+Ethiopia,ETB,AF,"['Eritrea', 'Kenya', 'Sudan', 'South Sudan', 'Somalia', 'Djibouti']",01/09/2024 17:26:19
+Falkland Islands,FKP,SA,[],01/09/2024 17:28:26
+Faroe Islands,DKK,EU,[],01/09/2024 17:28:27
+Fiji,FJD,OC,[],01/09/2024 17:28:28
+Finland,EUR,EU,"['Norway', 'Russia', 'Sweden']",01/09/2024 17:23:40
+France,EUR,EU,"['Switzerland', 'Germany', 'Belgium', 'Luxembourg', 'Italy', 'Andorra', 'Monaco', 'Spain']",01/09/2024 17:25:00
+French Guiana,EUR,SA,"['Suriname', 'Brazil']",01/09/2024 17:27:44
+French Polynesia,XPF,OC,[],01/09/2024 17:28:29
+French Southern Territories,EUR,AN,[],01/09/2024 17:28:30
+Gabon,XAF,AF,"['Cameroon', 'Equatorial Guinea', 'Republic of the Congo']",01/09/2024 17:26:00
+Gambia,GMD,AF,['Senegal'],01/09/2024 17:25:21
+Georgia,GEL,AS,"['Armenia', 'Azerbaijan', 'Turkey', 'Russia']",01/09/2024 17:23:45
+Germany,EUR,EU,"['Switzerland', 'Poland', 'Netherlands', 'Denmark', 'Belgium', 'Czech Republic', 'Luxembourg', 'France', 'Austria']",01/09/2024 17:24:52
+Ghana,GHS,AF,"['Ivory Coast', 'Togo', 'Burkina Faso']",01/09/2024 17:25:28
+Gibraltar,GIP,EU,['Spain'],01/09/2024 17:25:03
+Greece,EUR,EU,"['Albania', 'Macedonia', 'Turkey', 'Bulgaria']",01/09/2024 17:24:07
+Greenland,DKK,NA,[],01/09/2024 17:28:32
+Grenada,XCD,NA,[],01/09/2024 17:28:32
+Guadeloupe,EUR,NA,['Netherlands Antilles'],01/09/2024 17:28:34
+Guam,USD,OC,[],01/09/2024 17:28:35
+Guatemala,GTQ,NA,"['Mexico', 'Honduras', 'Belize', 'El Salvador']",01/09/2024 17:27:35
+Guernsey,GBP,EU,[],01/09/2024 17:28:36
+Guinea,GNF,AF,"['Liberia', 'Senegal', 'Sierra Leone', 'Ivory Coast', 'Guinea-Bissau', 'Mali']",01/09/2024 17:25:24
+Guinea-Bissau,XOF,AF,"['Senegal', 'Guinea']",01/09/2024 17:25:19
+Guyana,GYD,SA,"['Suriname', 'Brazil', 'Venezuela']",01/09/2024 17:27:42
+Haiti,HTG,NA,['Dominican Republic'],01/09/2024 17:28:24
+Heard Island and McDonald Islands,AUD,AN,[],01/09/2024 17:28:37
+Honduras,HNL,NA,"['Guatemala', 'Nicaragua', 'El Salvador']",01/09/2024 17:27:36
+Hong Kong,HKD,AS,[],01/09/2024 17:28:38
+Hungary,HUF,EU,"['Slovakia', 'Slovenia', 'Romania', 'Ukraine', 'Serbia and Montenegro', 'Croatia', 'Austria', 'Serbia']",01/09/2024 17:24:28
+Iceland,ISK,EU,[],01/09/2024 17:28:39
+India,INR,AS,"['China', 'Nepal', 'Myanmar', 'Bhutan', 'Pakistan', 'Bangladesh']",01/09/2024 17:23:02
+Indonesia,IDR,AS,"['Papua New Guinea', 'East Timor', 'Malaysia']",01/09/2024 17:22:51
+Iran,IRR,AS,"['Turkmenistan', 'Afghanistan', 'Iraq', 'Armenia', 'Pakistan', 'Azerbaijan', 'Turkey']",01/09/2024 17:27:06
+Iraq,IQD,AS,"['Syria', 'Saudi Arabia', 'Iran', 'Jordan', 'Turkey', 'Kuwait']",01/09/2024 17:27:04
+Ireland,EUR,EU,['United Kingdom'],01/09/2024 17:28:42
+Isle of Man,GBP,EU,[],01/09/2024 17:28:43
+Israel,ILS,AS,"['Syria', 'Jordan', 'Lebanon', 'Egypt', 'Palestinian Territory']",01/09/2024 17:26:59
+Italy,EUR,EU,"['Switzerland', 'Vatican', 'Slovenia', 'San Marino', 'France', 'Austria']",01/09/2024 17:24:20
+Ivory Coast,XOF,AF,"['Liberia', 'Ghana', 'Guinea', 'Burkina Faso', 'Mali']",01/09/2024 17:25:27
+Jamaica,JMD,NA,[],01/09/2024 17:28:44
+Japan,JPY,AS,[],01/09/2024 17:28:45
+Jersey,GBP,EU,[],01/09/2024 17:28:46
+Jordan,JOD,AS,"['Syria', 'Saudi Arabia', 'Iraq', 'Israel', 'Palestinian Territory']",01/09/2024 17:26:59
+Kazakhstan,KZT,AS,"['Turkmenistan', 'China', 'Kyrgyzstan', 'Uzbekistan', 'Russia']",01/09/2024 17:23:16
+Kenya,KES,AF,"['Ethiopia', 'Tanzania', 'South Sudan', 'Somalia', 'Uganda']",01/09/2024 17:26:28
+Kiribati,AUD,OC,[],01/09/2024 17:28:47
+Kosovo,EUR,EU,"['Serbia', 'Albania', 'Macedonia', 'Montenegro']",01/09/2024 17:24:04
+Kuwait,KWD,AS,"['Saudi Arabia', 'Iraq']",01/09/2024 17:21:26
+Kyrgyzstan,KGS,AS,"['China', 'Tajikistan', 'Uzbekistan', 'Kazakhstan']",01/09/2024 17:23:16
+Laos,LAK,AS,"['China', 'Myanmar', 'Cambodia', 'Thailand', 'Vietnam']",01/09/2024 17:23:04
+Latvia,EUR,EU,"['Lithuania', 'Estonia', 'Belarus', 'Russia']",01/09/2024 17:23:33
+Lebanon,LBP,AS,"['Syria', 'Israel']",01/09/2024 17:21:30
+Lesotho,LSL,AF,['South Africa'],01/09/2024 17:26:04
+Liberia,LRD,AF,"['Sierra Leone', 'Ivory Coast', 'Guinea']",01/09/2024 17:25:25
+Libya,LYD,AF,"['Chad', 'Niger', 'Algeria', 'Sudan', 'Tunisia', 'Egypt']",01/09/2024 17:26:56
+Liechtenstein,CHF,EU,"['Switzerland', 'Austria']",01/09/2024 17:24:23
+Lithuania,LTL,EU,"['Poland', 'Belarus', 'Russia', 'Latvia']",01/09/2024 17:24:38
+Luxembourg,EUR,EU,"['Germany', 'Belgium', 'France']",01/09/2024 17:24:47
+Macao,MOP,AS,[],01/09/2024 17:28:49
+Macedonia,MKD,EU,"['Albania', 'Greece', 'Serbia and Montenegro', 'Bulgaria', 'Serbia', 'Kosovo']",01/09/2024 17:24:09
+Madagascar,MGA,AF,[],01/09/2024 17:28:51
+Malawi,MWK,AF,"['Tanzania', 'Mozambique', 'Zambia']",01/09/2024 17:25:52
+Malaysia,MYR,AS,"['Brunei', 'Thailand', 'Indonesia']",01/09/2024 17:22:51
+Maldives,MVR,AS,[],01/09/2024 17:28:52
+Mali,XOF,AF,"['Senegal', 'Niger', 'Algeria', 'Ivory Coast', 'Guinea', 'Mauritania', 'Burkina Faso']",01/09/2024 17:25:16
+Malta,EUR,EU,[],01/09/2024 17:28:53
+Marshall Islands,USD,OC,[],01/09/2024 17:28:54
+Martinique,EUR,NA,[],01/09/2024 17:28:55
+Mauritania,MRO,AF,"['Senegal', 'Algeria', 'Western Sahara', 'Mali']",01/09/2024 17:25:17
+Mauritius,MUR,AF,[],01/09/2024 17:28:56
+Mayotte,EUR,AF,[],01/09/2024 17:28:56
+Mexico,MXN,NA,"['Guatemala', 'United States', 'Belize']",01/09/2024 17:27:32
+Micronesia,USD,OC,[],01/09/2024 17:28:58
+Moldova,MDL,EU,"['Romania', 'Ukraine']",01/09/2024 17:24:32
+Monaco,EUR,EU,['France'],01/09/2024 17:24:59
+Mongolia,MNT,AS,"['China', 'Russia']",01/09/2024 17:23:19
+Montenegro,EUR,EU,"['Albania', 'Croatia', 'Bosnia and Herzegovina', 'Serbia', 'Kosovo']",01/09/2024 17:24:04
+Montserrat,XCD,NA,[],01/09/2024 17:28:59
+Morocco,MAD,AF,"['Algeria', 'Western Sahara', 'Spain']",01/09/2024 17:25:05
+Mozambique,MZN,AF,"['Zimbabwe', 'Tanzania', 'Swaziland', 'South Africa', 'Zambia', 'Malawi']",01/09/2024 17:26:08
+Myanmar,MMK,AS,"['China', 'Laos', 'Thailand', 'Bangladesh', 'India']",01/09/2024 17:23:02
+Namibia,NAD,AF,"['South Africa', 'Botswana', 'Zambia', 'Angola']",01/09/2024 17:26:02
+Nauru,AUD,OC,[],01/09/2024 17:29:00
+Nepal,NPR,AS,"['China', 'India']",01/09/2024 17:22:56
+Netherlands,EUR,EU,"['Germany', 'Belgium']",01/09/2024 17:24:47
+Netherlands Antilles,ANG,NA,['Guadeloupe'],01/09/2024 17:28:34
+New Caledonia,XPF,OC,[],01/09/2024 17:29:01
+New Zealand,NZD,OC,[],01/09/2024 17:29:02
+Nicaragua,NIO,NA,"['Costa Rica', 'Honduras']",01/09/2024 17:27:36
+Niger,XOF,AF,"['Chad', 'Benin', 'Algeria', 'Libya', 'Burkina Faso', 'Nigeria', 'Mali']",01/09/2024 17:26:50
+Nigeria,NGN,AF,"['Chad', 'Niger', 'Benin', 'Cameroon']",01/09/2024 17:26:47
+Niue,NZD,OC,[],01/09/2024 17:29:03
+Norfolk Island,AUD,OC,[],01/09/2024 17:29:04
+North Korea,KPW,AS,"['China', 'South Korea', 'Russia']",01/09/2024 17:23:25
+Northern Mariana Islands,USD,OC,[],01/09/2024 17:29:05
+Norway,NOK,EU,"['Finland', 'Russia', 'Sweden']",01/09/2024 17:23:39
+Oman,OMR,AS,"['Saudi Arabia', 'Yemen', 'United Arab Emirates']",01/09/2024 17:21:21
+Pakistan,PKR,AS,"['China', 'Afghanistan', 'Iran', 'India']",01/09/2024 17:23:01
+Palau,USD,OC,[],01/09/2024 17:29:06
+Palestinian Territory,ILS,AS,"['Jordan', 'Israel']",01/09/2024 17:26:59
+Panama,PAB,NA,"['Costa Rica', 'Colombia']",01/09/2024 17:27:36
+Papua New Guinea,PGK,OC,['Indonesia'],01/09/2024 17:22:48
+Paraguay,PYG,SA,"['Bolivia', 'Brazil', 'Argentina']",01/09/2024 17:27:49
+Peru,PEN,SA,"['Ecuador', 'Chile', 'Bolivia', 'Brazil', 'Colombia']",01/09/2024 17:27:59
+Philippines,PHP,AS,[],01/09/2024 17:29:07
+Pitcairn,NZD,OC,[],01/09/2024 17:29:08
+Poland,PLN,EU,"['Germany', 'Lithuania', 'Slovakia', 'Czech Republic', 'Belarus', 'Ukraine', 'Russia']",01/09/2024 17:24:41
+Portugal,EUR,EU,['Spain'],01/09/2024 17:25:02
+Puerto Rico,USD,NA,[],01/09/2024 17:29:09
+Qatar,QAR,AS,['Saudi Arabia'],01/09/2024 17:21:15
+Republic of the Congo,XAF,AF,"['Central African Republic', 'Gabon', 'Democratic Republic of the Congo', 'Cameroon', 'Angola']",01/09/2024 17:26:02
+Reunion,EUR,AF,[],01/09/2024 17:29:11
+Romania,RON,EU,"['Moldova', 'Hungary', 'Ukraine', 'Serbia and Montenegro', 'Bulgaria', 'Serbia']",01/09/2024 17:24:31
+Russia,RUB,EU,"['Georgia', 'China', 'Belarus', 'Ukraine', 'Kazakhstan', 'Latvia', 'Poland', 'Estonia', 'Lithuania', 'Finland', 'Mongolia', 'Norway', 'Azerbaijan', 'North Korea']",01/09/2024 17:23:42
+Rwanda,RWF,AF,"['Tanzania', 'Democratic Republic of the Congo', 'Burundi', 'Uganda']",01/09/2024 17:26:28
+Saint Barthelemy,EUR,NA,[],01/09/2024 17:29:12
+Saint Helena,SHP,AF,[],01/09/2024 17:29:13
+Saint Kitts and Nevis,XCD,NA,[],01/09/2024 17:29:14
+Saint Lucia,XCD,NA,[],01/09/2024 17:29:14
+Saint Martin,EUR,NA,['Sint Maarten'],01/09/2024 17:29:16
+Saint Pierre and Miquelon,EUR,NA,[],01/09/2024 17:29:17
+Saint Vincent and the Grenadines,XCD,NA,[],01/09/2024 17:29:18
+Samoa,WST,OC,[],01/09/2024 17:29:19
+San Marino,EUR,EU,['Italy'],01/09/2024 17:24:19
+Sao Tome and Principe,STD,AF,[],01/09/2024 17:29:20
+Saudi Arabia,SAR,AS,"['Qatar', 'Oman', 'Iraq', 'Yemen', 'Jordan', 'United Arab Emirates', 'Kuwait']",01/09/2024 17:21:26
+Senegal,XOF,AF,"['Guinea', 'Mauritania', 'Guinea-Bissau', 'Gambia', 'Mali']",01/09/2024 17:25:21
+Serbia,RSD,EU,"['Albania', 'Hungary', 'Macedonia', 'Romania', 'Croatia', 'Bosnia and Herzegovina', 'Bulgaria', 'Montenegro', 'Kosovo']",01/09/2024 17:24:06
+Serbia and Montenegro,RSD,EU,"['Albania', 'Hungary', 'Macedonia', 'Romania', 'Croatia', 'Bosnia and Herzegovina', 'Bulgaria']",01/09/2024 17:24:16
+Seychelles,SCR,AF,[],01/09/2024 17:29:22
+Sierra Leone,SLL,AF,"['Liberia', 'Guinea']",01/09/2024 17:25:24
+Singapore,SGD,AS,[],01/09/2024 17:29:23
+Sint Maarten,ANG,NA,['Saint Martin'],01/09/2024 17:29:16
+Slovakia,EUR,EU,"['Poland', 'Hungary', 'Czech Republic', 'Ukraine', 'Austria']",01/09/2024 17:24:24
+Slovenia,EUR,EU,"['Hungary', 'Italy', 'Croatia', 'Austria']",01/09/2024 17:24:18
+Solomon Islands,SBD,OC,[],01/09/2024 17:29:24
+Somalia,SOS,AF,"['Ethiopia', 'Kenya', 'Djibouti']",01/09/2024 17:26:16
+South Africa,ZAR,AF,"['Zimbabwe', 'Swaziland', 'Mozambique', 'Botswana', 'Namibia', 'Lesotho']",01/09/2024 17:26:04
+South Georgia and the South Sandwich Islands,GBP,AN,[],01/09/2024 17:29:25
+South Korea,KRW,AS,['North Korea'],01/09/2024 17:23:25
+South Sudan,SSP,AF,"['Democratic Republic of the Congo', 'Central African Republic', 'Ethiopia', 'Kenya', 'Sudan', 'Uganda']",01/09/2024 17:26:39
+Spain,EUR,EU,"['Andorra', 'Portugal', 'Gibraltar', 'France', 'Morocco']",01/09/2024 17:25:05
+Sri Lanka,LKR,AS,[],01/09/2024 17:29:26
+Sudan,SDG,AF,"['South Sudan', 'Chad', 'Egypt', 'Ethiopia', 'Eritrea', 'Libya', 'Central African Republic']",01/09/2024 17:26:42
+Suriname,SRD,SA,"['Guyana', 'Brazil', 'French Guiana']",01/09/2024 17:27:44
+Svalbard and Jan Mayen,NOK,EU,[],01/09/2024 17:29:27
+Swaziland,SZL,AF,"['South Africa', 'Mozambique']",01/09/2024 17:25:42
+Sweden,SEK,EU,"['Norway', 'Finland']",01/09/2024 17:23:39
+Switzerland,CHF,EU,"['Germany', 'Italy', 'Liechtenstein', 'France', 'Austria']",01/09/2024 17:24:55
+Syria,SYP,AS,"['Iraq', 'Jordan', 'Israel', 'Turkey', 'Lebanon']",01/09/2024 17:27:01
+Taiwan,TWD,AS,[],01/09/2024 17:29:29
+Tajikistan,TJS,AS,"['China', 'Afghanistan', 'Kyrgyzstan', 'Uzbekistan']",01/09/2024 17:23:17
+Tanzania,TZS,AF,"['Mozambique', 'Kenya', 'Democratic Republic of the Congo', 'Rwanda', 'Zambia', 'Burundi', 'Uganda', 'Malawi']",01/09/2024 17:26:31
+Thailand,THB,AS,"['Laos', 'Myanmar', 'Cambodia', 'Malaysia']",01/09/2024 17:22:51
+Togo,XOF,AF,"['Benin', 'Ghana', 'Burkina Faso']",01/09/2024 17:25:28
+Tokelau,NZD,OC,[],01/09/2024 17:29:30
+Tonga,TOP,OC,[],01/09/2024 17:29:30
+Trinidad and Tobago,TTD,NA,[],01/09/2024 17:29:31
+Tunisia,TND,AF,"['Algeria', 'Libya']",01/09/2024 17:25:08
+Turkey,TRY,AS,"['Syria', 'Georgia', 'Iraq', 'Iran', 'Greece', 'Armenia', 'Azerbaijan', 'Bulgaria']",01/09/2024 17:24:06
+Turkmenistan,TMT,AS,"['Afghanistan', 'Iran', 'Uzbekistan', 'Kazakhstan']",01/09/2024 17:27:07
+Turks and Caicos Islands,USD,NA,[],01/09/2024 17:29:33
+Tuvalu,AUD,OC,[],01/09/2024 17:29:33
+U.S. Virgin Islands,USD,NA,[],01/09/2024 17:29:34
+Uganda,UGX,AF,"['Tanzania', 'Kenya', 'South Sudan', 'Democratic Republic of the Congo', 'Rwanda']",01/09/2024 17:26:28
+Ukraine,UAH,EU,"['Poland', 'Moldova', 'Hungary', 'Slovakia', 'Belarus', 'Romania', 'Russia']",01/09/2024 17:24:35
+United Arab Emirates,AED,AS,"['Saudi Arabia', 'Oman']",01/09/2024 17:21:21
+United Kingdom,GBP,EU,['Ireland'],01/09/2024 17:28:42
+United States,USD,NA,"['Canada', 'Mexico', 'Cuba']",01/09/2024 17:27:30
+United States Minor Outlying Islands,USD,OC,[],01/09/2024 17:29:36
+Uruguay,UYU,SA,"['Brazil', 'Argentina']",01/09/2024 17:27:52
+Uzbekistan,UZS,AS,"['Turkmenistan', 'Afghanistan', 'Kyrgyzstan', 'Tajikistan', 'Kazakhstan']",01/09/2024 17:23:16
+Vanuatu,VUV,OC,[],01/09/2024 17:29:37
+Vatican,EUR,EU,['Italy'],01/09/2024 17:22:14
+Venezuela,VEF,SA,"['Guyana', 'Brazil', 'Colombia']",01/09/2024 17:27:42
+Vietnam,VND,AS,"['China', 'Laos', 'Cambodia']",01/09/2024 17:22:43
+Wallis and Futuna,XPF,OC,[],01/09/2024 17:29:38
+Western Sahara,MAD,AF,"['Algeria', 'Mauritania', 'Morocco']",01/09/2024 17:25:05
+Yemen,YER,AS,"['Saudi Arabia', 'Oman']",01/09/2024 17:21:19
+Zambia,ZMW,AF,"['Zimbabwe', 'Tanzania', 'Mozambique', 'Democratic Republic of the Congo', 'Namibia', 'Malawi', 'Angola']",01/09/2024 17:26:02
+Zimbabwe,ZWL,AF,"['South Africa', 'Mozambique', 'Botswana', 'Zambia']",01/09/2024 17:26:06

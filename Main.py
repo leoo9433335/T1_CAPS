@@ -3,20 +3,31 @@ from bs4 import BeautifulSoup
 import requests
 import time
 import datetime
-import csv
+import pandas as pd
 
-def getPage(url):
-    link = ('http://127.0.0.1:8000{}'.format(url))
+def getUrl(href):
+    link = ('http://127.0.0.1:8000{}'.format(href))
     response = requests.get(link, allow_redirects = True)
     response.raise_for_status()
-    html = urlopen(response.url)
+    return response.url
+
+def getPage(href):
+    html = urlopen(getUrl(href))
     bs = BeautifulSoup(html.read(), 'html.parser')
     return bs
 
-def getCountryInfo(country):
+def getCountryInfo(country_href, countries_data, countryPage):
+    if getUrl(country_href) in visited:
+        return
+    visited.append(getUrl(country_href))
+    print(country_href)
+    if countryPage is None:
+        country = getPage(country_href)
+    else:
+        country = countryPage
     #CountryName
     name = country.find('tr', id='places_country__row').find('td', class_='w2p_fw').string
-    print("Getting data from:", name)
+    print(f'Getting data from: {name}')
     #CountryCurrency
     currency = country.find('tr', id='places_currency_code__row').find('td', class_='w2p_fw').string
     #CountryContinent
@@ -30,29 +41,34 @@ def getCountryInfo(country):
         if not tr:
             break
         neighboursName.append((tr.find('td', class_='w2p_fw').string))
+        getCountryInfo(countries.attrs['href'], countries_data, nPage)
     #Timestamp
     timestamp = datetime.datetime.fromtimestamp(time.time()).strftime("%d/%m/%Y %H:%M:%S")
     
-    dataRow = [name, currency, continent, neighboursName, timestamp]
-    return dataRow
+    df = pd.DataFrame({'Country': [name], 'Currency': [currency], 'Continent': [continent], 'Neighbours': [neighboursName], 'Updated at': [timestamp]})
+    countries_data.append(df)
+    return
 
-def getCountries(page: BeautifulSoup, country_data):
+
+def getCountries(page: BeautifulSoup, data):
+    countries_data = data
     table = page.find('table')
     countries = table.find_all('a')
     for country in countries:
-        cPage = getPage(country.attrs['href'])
-        country_data.append(getCountryInfo(cPage))
+        getCountryInfo(country.attrs['href'], countries_data, None)
 
     nextPage = page.find('div', id='pagination',).find('a', string='Next >')
     if nextPage and 'href' in nextPage.attrs:
-        getCountries(getPage(nextPage.attrs['href']), country_data)
+        getCountries(getPage(nextPage.attrs['href']), countries_data)
 
-    return country_data
+    return countries_data
 
 with open('data.csv', mode='w') as file:
+    visited = []
     country_data = []
-    countryData = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     mp = getPage('/places')
     all_country_data = getCountries(mp, country_data)
-    for dataRow in all_country_data:
-        countryData.writerow(dataRow)
+    all_countries_df = pd.concat(all_country_data, ignore_index=True)
+    # Save the DataFrame to a CSV file
+    all_countries_df.sort_values(by='Country', inplace=True)
+    all_countries_df.to_csv("data.csv", index=False)
