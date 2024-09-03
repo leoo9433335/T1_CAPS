@@ -17,6 +17,7 @@ def getPage(href):
     return bs
 
 def getCountryInfo(country_href, countries_data, countryPage):
+    
     if getUrl(country_href) in visited:
         return
     visited.append(getUrl(country_href))
@@ -28,6 +29,8 @@ def getCountryInfo(country_href, countries_data, countryPage):
     #CountryName
     name = country.find('tr', id='places_country__row').find('td', class_='w2p_fw').string
     print(f'Getting data from: {name}')
+    
+        
     #CountryCurrency
     currency = country.find('tr', id='places_currency_code__row').find('td', class_='w2p_fw').string
     #CountryContinent
@@ -43,9 +46,9 @@ def getCountryInfo(country_href, countries_data, countryPage):
         neighboursName.append((tr.find('td', class_='w2p_fw').string))
         getCountryInfo(countries.attrs['href'], countries_data, nPage)
     #Timestamp
-    timestamp = datetime.datetime.fromtimestamp(time.time()).strftime("%d/%m/%Y %H:%M:%S")
     
-    df = pd.DataFrame({'Country': [name], 'Currency': [currency], 'Continent': [continent], 'Neighbours': [neighboursName], 'Updated at': [timestamp]})
+    
+    df = pd.DataFrame({'Country': [name], 'Currency': [currency], 'Continent': [continent], 'Neighbours': [neighboursName], 'Updated': ' '})
     countries_data.append(df)
     return
 
@@ -57,11 +60,37 @@ def getCountries(page: BeautifulSoup, data):
     for country in countries:
         getCountryInfo(country.attrs['href'], countries_data, None)
 
-    nextPage = page.find('div', id='pagination',).find('a', string='Next >')
-    if nextPage and 'href' in nextPage.attrs:
-        getCountries(getPage(nextPage.attrs['href']), countries_data)
+        nextPage = page.find('div', id='pagination',).find('a', string='Next >')
+        if nextPage and 'href' in nextPage.attrs:
+             getCountries(getPage(nextPage.attrs['href']), countries_data)
 
     return countries_data
+
+
+def update_(ler_csv,new_df):
+
+    for index,new_ft in new_df.iterrows():
+        if index < len(ler_csv):
+            existing_row = ler_csv.iloc[index]
+            if not new_ft.equals(existing_row):
+                 for col in new_ft.index:
+                    ler_csv.at[index, col] = new_ft[col]
+                    ler_csv.at[index, 'LastUpdated'] = datetime.datetime.fromtimestamp(time.time()).strftime("%d/%m/%Y %H:%M:%S")
+                    updated = True
+                    
+        else:
+            new_ft['LastUpdated'] = datetime.datetime.fromtimestamp(time.time()).strftime("%d/%m/%Y %H:%M:%S")
+            ler_csv = ler_csv.append(new_ft, ignore_index=True)
+            updated = True
+            print('New country added')
+    return ler_csv, updated
+
+
+
+
+
+
+
 
 with open('data.csv', mode='w') as file:
     visited = []
@@ -72,3 +101,32 @@ with open('data.csv', mode='w') as file:
     # Save the DataFrame to a CSV file
     all_countries_df.sort_values(by='Country', inplace=True)
     all_countries_df.to_csv("data.csv", index=False)
+
+
+ 
+
+    ler_csv = pd.read_csv('data.csv')
+
+    upd_df, updated = update_(ler_csv, all_countries_df)
+
+    if updated:
+        upd_df.to_csv('data.csv', index=False)
+
+
+    
+
+        
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
